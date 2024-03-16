@@ -6,6 +6,7 @@ git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/behabtuG/ReactTutorials.git
+git pull
 git push -u origin main
 
 // push an existing repository from the command line

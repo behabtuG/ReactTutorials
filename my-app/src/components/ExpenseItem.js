@@ -2,13 +2,16 @@ import React from "react";
 import "./ExpenseItem.css";
 
 export default function ExpenseItem() {
+  const expenseDate = new Date(2024, 3, 9);
+  const expenseTitle = "Car Insurance";
+  const expenseAmount = 294.67;
   return (
     <div className="expense-item">
-      <div>March 28th 2024</div>
+      <div>{expenseDate.toISOString()}</div>
       <div className="expense-item__descriptions">
-        <h2>Car Insurance</h2>
+        <h2>{expenseTitle}</h2>
       </div>
-      <div className="expense-item__price">$294.67</div>
+      <div className="expense-item__price">${expenseAmount}</div>
     </div>
   );
 }

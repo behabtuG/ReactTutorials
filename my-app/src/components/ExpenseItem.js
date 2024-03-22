@@ -1,19 +1,11 @@
 import React from "react";
 import "./ExpenseItem.css";
+import ExpenseDate from "./ExpenseDate";
 
 function ExpenseItem(props) {
-  // Format the date to a more readable format
-  const formattedDate =
-    props.date instanceof Date
-      ? props.date.toLocaleDateString("en-US", {
-          day: "numeric",
-          month: "long",
-          year: "numeric",
-        })
-      : "";
   return (
     <div className="expense-item">
-      <div>{formattedDate}</div>
+      <ExpenseDate date={props.date} />
       <div className="expense-item__descriptions">
         <h2>{props.title}</h2>
       </div>

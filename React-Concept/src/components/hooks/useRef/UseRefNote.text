@@ -1,0 +1,3 @@
+useRef: This hook is used to create a mutable reference object whose .current property can be changed. 
+useRef does not trigger re-renders when the value is updated. It's often used to access and manipulate DOM 
+elements directly or to persist values across renders without causing re-renders.

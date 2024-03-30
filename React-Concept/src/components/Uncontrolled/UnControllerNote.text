@@ -1,0 +1,7 @@
+Uncontrolled Components:
+
+    In uncontrolled components, form data is handled by the DOM itself, rather than by React's state.
+    The value of the form element is not controlled by React's state. Instead, it is determined by the DOM and 
+    can be accessed via references.
+    Uncontrolled components are useful when you want to integrate with non-React code or libraries, or when you 
+    want to rely on browser behavior for form handling.

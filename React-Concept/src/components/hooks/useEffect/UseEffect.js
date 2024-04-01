@@ -2,38 +2,45 @@ import React, { useState, useEffect } from "react";
 import "./UseEffect.css";
 
 function UseEffect() {
-  const [data, setData] = useState(null);
+  const [users, setUsers] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchUsers = async () => {
       try {
-        const response = await fetch("https://api.example.com/data");
-        const result = await response.json();
-        setData(result);
+        const response = await fetch(
+          "https://jsonplaceholder.typicode.com/users"
+        );
+        if (!response.ok) {
+          throw new Error("Failed to fetch data");
+        }
+        const data = await response.json();
+        setUsers(data);
       } catch (error) {
-        console.error("Error fetching data:", error);
+        setError(error.message);
+      } finally {
+        setIsLoading(false);
       }
     };
 
-    fetchData();
-
-    return () => {
-      // Cleanup function (if needed)
-    };
-  }, []); // Empty dependency array to run once after initial render
+    fetchUsers();
+  }, []);
 
   return (
-    <div className="data-fetching-container">
-      {data ? (
+    <div className="use-effect-container">
+      {isLoading ? (
+        <p className="loading-message">Loading...</p>
+      ) : error ? (
+        <p className="error-message">{error}</p>
+      ) : (
         <ul className="data-list">
-          {data.map((item) => (
-            <li key={item.id} className="data-item">
-              {item.name}
+          {users.map((user) => (
+            <li key={user.id} className="data-item">
+              {user.name}
             </li>
           ))}
         </ul>
-      ) : (
-        <p className="loading-message">Loading...</p>
       )}
     </div>
   );

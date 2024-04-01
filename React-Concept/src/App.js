@@ -6,6 +6,8 @@ import UseState from "./components/hooks/useState/UseState";
 import ControlledInput from "./components/Controller/ControlledInput";
 import UncontrolledInput from "./components/Uncontrolled/UncontrolledInput";
 import UseEffect from "./components/hooks/useEffect/UseEffect";
+import ThemeButton from "./ThemeButton";
+import Counter1 from "./components/hooks/useReducer/UseReducer";
 
 const App = () => {
   return (
@@ -26,12 +28,20 @@ const App = () => {
             <UseEffect />
           </Card>
           <Card>
+            <h2>useReducer</h2>
+            <Counter1 />
+          </Card>
+          <Card>
             <h2>Controlled Input</h2>
             <ControlledInput />
           </Card>
           <Card>
             <h2>Uncontrolled Input</h2>
             <UncontrolledInput />
+          </Card>
+          <Card>
+            <h2>Theme Button</h2>
+            <ThemeButton />
           </Card>
         </Card>
       </div>

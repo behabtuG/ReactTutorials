@@ -31,3 +31,5 @@ Usage:
  useEffect is commonly used for tasks like data fetching, setting up subscriptions, or manually changing the DOM.
  It's often used to replace lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount
  in class components.
+ 
+ Allows functional components to perform side effects. It's similar to lifecycle methods in class components.

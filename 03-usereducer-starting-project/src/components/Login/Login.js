@@ -10,7 +10,7 @@ import Card from "../UI/Card/Card";
 import classes from "./Login.module.css";
 import Button from "../UI/Button/Button";
 import AuthContext from "../store/auth-context";
-// import Input from "../UI/Input/Input";
+import Input from "../UI/Inputs/Input";
 
 const emailReducer = (state, action) => {
   if (action.type === "USER_INPUT") {

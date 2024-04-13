@@ -18,6 +18,13 @@ class Users extends Component {
       // users: DUMMY_USERS,
     };
   }
+
+  componentDidUpdate() {
+    if (this.props.users.lenght === 0) {
+      throw new Error("No users provided!");
+    }
+  }
+
   toggleUsersHandler() {
     //this.state.showUsers = false; //NOT
     this.setState((curstate) => {

@@ -1,0 +1,9 @@
+Context passes through intermediate components 
+You can insert as many components as you like between the component that provides context and the one that uses it.
+ This includes both built-in components like <div> and components you might build yourself.
+
+In this example, the same Post component (with a dashed border) is rendered at two different nesting levels. 
+Notice that the <Heading> inside of it gets its level automatically from the closest <Section>:
+
+Context lets you write components that “adapt to their surroundings” and display themselves differently depending
+ on where (or, in other words, in which context) they are being rendered.

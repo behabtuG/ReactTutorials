@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { MyButton } from "./button/MyButton";
-
+import MyApp from "./MyApp"; // Import MyApp component
 /*export default function App() {
   return (
     <div>
@@ -37,7 +37,11 @@ export default function App() {
       />
       <h1>Counters that update separately</h1>
       <MyButton count={count} onClick={handleClick} />
+      <br />
       <MyButton count={count} onClick={handleClick} />
+      <hr /> {/* Add a horizontal line to separate the sections */}
+      {/* Render MyApp component */}
+      <MyApp />
     </>
   );
 }

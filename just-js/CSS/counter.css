@@ -1,0 +1,11 @@
+.my-elements::before {
+  counter-reset: myCounter;
+}
+
+.my-elements {
+  counter-increment: myCounter;
+}
+
+.my-elements::before {
+  content: "Step " counter(myCounter);
+}

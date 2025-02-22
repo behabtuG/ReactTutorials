@@ -1,0 +1,14 @@
+.container.grid {
+  display: grid;
+  place-items: center;
+  /* Uncomment below for advanced grid layout */
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  /* grid-gap: 1rem; */
+  height: 100vh;
+}
+
+.items {
+  padding: 10px;
+  background-color: lightgreen;
+  margin: 5px;
+}

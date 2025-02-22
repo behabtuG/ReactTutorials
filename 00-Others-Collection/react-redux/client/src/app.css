@@ -1,0 +1,60 @@
+/* Main container for the layout */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Top navigation */
+.top-nav {
+  flex-shrink: 0;
+  z-index: 1000; /* Keeps it above other elements */
+  background-color: #f8f9fa; /* Matches bootstrap's light background */
+}
+
+/* Layout below the top navigation */
+.content-wrapper {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Side navigation */
+.side-nav {
+  width: 250px;
+  transition: width 0.3s ease;
+  background-color: #f1f1f1; /* Light gray */
+  overflow: hidden;
+}
+
+.side-nav.collapsed {
+  width: 60px; /* Collapsed width */
+}
+
+/* Content area */
+.content {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .side-nav {
+    position: fixed;
+    left: 0;
+    top: 56px; /* Height of the top nav */
+    height: calc(100% - 56px); /* Full height below top nav */
+    z-index: 999;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  .side-nav.open {
+    transform: translateX(0);
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion FAQ Section</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>FAQ</h1>
+    <div class="accordion-item">
+      <div class="question">What is your return policy?</div>
+      <div class="answer">
+        Our return policy lasts 30 days. If 30 days have gone by since your
+        purchase, unfortunately we can’t offer you a refund or exchange.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="question">How do I track my order?</div>
+      <div class="answer">
+        Once your order has shipped, you will receive an email with a tracking
+        number and link to track your package.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="question">Can I purchase items again?</div>
+      <div class="answer">
+        Yes, you can purchase items multiple times as long as they are in stock.
+      </div>
+    </div>
+    <script>
+      document.querySelectorAll(".question").forEach((question) => {
+        question.addEventListener("click", function () {
+          const answer = this.nextElementSibling;
+          const isOpen = answer.style.display === "block";
+
+          // Close all answers before opening a new one (optional)
+          document
+            .querySelectorAll(".answer")
+            .forEach((a) => (a.style.display = "none"));
+
+          // Toggle the current answer
+          answer.style.display = isOpen ? "none" : "block";
+
+          // Toggle active class for styling
+          this.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>

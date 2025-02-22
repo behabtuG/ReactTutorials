@@ -1,0 +1,13 @@
+.container.position {
+  position: relative;
+  height: 100vh;
+}
+
+.items {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightcoral;
+  padding: 20px;
+}

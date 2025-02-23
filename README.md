@@ -32,7 +32,7 @@ Git (optional, but recommended for version control)
    ```bash
    git clone https://github.com/your-username/your-repo-name.git 
    cd your-repo-name
-Running the Application
+# Running the Application
 
     Start the development server:
     Bash
@@ -46,7 +46,7 @@ Bash
 
     Open your browser and visit http://localhost:3000 to view the application.
 
-Project Structure
+# Project Structure
 
 src/
 ├── components/       # Reusable React components
@@ -60,7 +60,7 @@ public/
 ├── index.html        # HTML template
 └── ...
 
-Tutorial Content
+# Tutorial Content
 
 This repository accompanies the tutorial available at https://behabtu-blogs.vercel.app/. Each commit corresponds to a step in the tutorial, allowing you to follow along and compare your code.
 Contributing
@@ -69,10 +69,10 @@ Feel free to submit pull requests with bug fixes or improvements. Please ensure 
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-Author
+# Author
 
 Behabtu Getnet - https://behabtu-blogs.vercel.app/ - behabtu.getnet@gmail.com
-Live Demo
+# Live Demo
 
 https://behabtu-blogs.vercel.app/
 

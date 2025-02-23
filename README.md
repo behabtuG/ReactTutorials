@@ -49,16 +49,16 @@ Bash
 Project Structure
 
 src/
-├── components/       # Reusable React components (e.g., Navbar, Post)
-├── pages/            # Page components (e.g., HomePage, BlogPost)
-├── services/         # API calls for fetching blog data
+├── components/       # Reusable React components
+├── pages/            # React pages (if using routing)
+├── services/         # API calls or data fetching logic
 ├── App.js            # Main application component
 ├── index.js          # Entry point of the application
 ├── index.css         # Global styles
-└──...
+└── ...
 public/
 ├── index.html        # HTML template
-└──...
+└── ...
 
 Tutorial Content
 

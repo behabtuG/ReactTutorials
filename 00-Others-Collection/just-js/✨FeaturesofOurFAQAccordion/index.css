@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background: #f9f9f9;
+}
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.question {
+  background: #eee;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.answer {
+  padding: 15px;
+  display: none;
+  background: #fff;
+  font-size: 16px;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+}

@@ -1,0 +1,17 @@
+.data-fetching-container {
+  margin: 20px;
+}
+
+.data-list {
+  list-style: none;
+  padding: 0;
+}
+
+.data-item {
+  margin-bottom: 5px;
+}
+
+.loading-message {
+  font-style: italic;
+  color: #777;
+}

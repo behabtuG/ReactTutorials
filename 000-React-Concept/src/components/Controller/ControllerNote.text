@@ -1,0 +1,11 @@
+Controlled and uncontrolled components are concepts in React related to how components manage and respond to 
+user input.
+
+    Controlled Components:
+        In controlled components, form data is handled by React and managed through its state.
+        The value of the form element (such as an input or textarea) is controlled by React's state and is passed
+         as a prop to the component.
+        When the user interacts with the form element, React calls the onChange event handler to update the state,
+         and the component re-renders with the updated value.
+        Controlled components are useful when you need to enforce input constraints or perform validation on user
+         input before updating the state.

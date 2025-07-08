@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}

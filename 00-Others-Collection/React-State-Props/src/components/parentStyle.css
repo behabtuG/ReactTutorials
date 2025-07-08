@@ -1,0 +1,16 @@
+/* ParentStyle.css */
+.parent-container {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 500px;
+  text-align: center;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.parent-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}

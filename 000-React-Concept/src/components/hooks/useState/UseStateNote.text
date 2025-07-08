@@ -1,0 +1,9 @@
+useState: This hook is used to manage state within functional components. 
+It allows you to add state variables to functional components and handle updates to those variables. 
+When you call useState, it returns an array with two elements: the current state value and a function 
+to update that value. useState triggers re-renders when the state is updated.
+
+In summary, useState is used for managing state that triggers re-renders, while useRef is used for accessing 
+and manipulating DOM elements directly or for persisting values across renders without causing re-renders.
+
+Allows functional components to manage state. It returns a stateful value and a function to update it.

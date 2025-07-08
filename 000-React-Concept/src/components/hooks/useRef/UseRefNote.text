@@ -1,0 +1,6 @@
+useRef: This hook is used to create a mutable reference object whose .current property can be changed. 
+useRef does not trigger re-renders when the value is updated. It's often used to access and manipulate DOM 
+elements directly or to persist values across renders without causing re-renders.
+
+In summary, useState is used for managing state that triggers re-renders, while useRef is used for accessing 
+and manipulating DOM elements directly or for persisting values across renders without causing re-renders.

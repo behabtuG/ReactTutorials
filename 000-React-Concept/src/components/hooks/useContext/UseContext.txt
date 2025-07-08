@@ -1,0 +1,1 @@
+useContext: Allows functional components to consume context created by a Provider component.

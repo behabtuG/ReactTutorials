@@ -1,0 +1,2 @@
+useReducer: Provides an alternative to useState for managing complex state logic.
+ It's often used when state transitions depend on the previous state.

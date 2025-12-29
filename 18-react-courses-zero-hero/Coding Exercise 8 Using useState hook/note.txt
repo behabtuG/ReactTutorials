@@ -1,0 +1,12 @@
+Using useState hook
+
+= Using useState hook
+
+Objective: The user should only be able to expand/collapse panels with information about specialities. 
+First panel should be already expanded.
+
+Panel.js
+
+1 ) Replace current solution with isOpen variable and setIsOpen function by useState hook to implement 
+expand/collapse panel functionality. Don't forget to set default value and double check that useState is imported
+ from react.

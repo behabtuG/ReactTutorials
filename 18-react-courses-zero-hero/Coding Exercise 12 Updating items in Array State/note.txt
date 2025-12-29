@@ -1,0 +1,9 @@
+Updating items in Array State
+
+= Updating items in Array State
+
+Objective: Every time whne the user clicks "Generate emojis", emojis icons should be updated.
+
+App.js
+
+1 ) Update emoji value in the emojis array for passes emoji id

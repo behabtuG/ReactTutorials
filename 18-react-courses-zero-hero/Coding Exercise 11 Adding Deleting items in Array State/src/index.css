@@ -1,0 +1,14 @@
+body {
+  background: lightslategray;
+  padding: 32px;
+}
+
+section {
+  width: 100%;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+ul {
+  padding-left: 16px;
+}

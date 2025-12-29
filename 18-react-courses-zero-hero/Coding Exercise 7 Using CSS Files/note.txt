@@ -1,0 +1,11 @@
+Using CSS Files
+
+Objective: Style list of Marvel heroes (with name and description) using CSS file with styles.
+
+styles.css
+
+1 ) Set styles for the .HeroesList and .HeroCard class selectors in the styles.css file
+
+App.js
+
+1 ) Apply HeroesList and HeroCard class names  to the ul and li HTML tags in the App component using the className attribute.

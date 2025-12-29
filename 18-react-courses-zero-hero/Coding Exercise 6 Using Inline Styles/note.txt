@@ -1,0 +1,9 @@
+Using Inline Styles
+
+Objective: Style list of actors (with name and description) using inline styles.
+
+App.js
+
+1 ) Set styles for the List and Item properties within the styles object from the example above
+
+2 ) Apply styles to the ul and li HTML tags in the App component using the styles object.

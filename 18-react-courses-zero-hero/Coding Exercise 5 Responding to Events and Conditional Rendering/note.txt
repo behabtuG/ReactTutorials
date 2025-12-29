@@ -1,0 +1,25 @@
+Responding to Events and Conditional Rendering
+
+= Responding to Events
+
+Objective: When the user clicks on the day of the week, he should see an alert telling them what day of the week they have selected.
+
+App.js
+
+1 ) Pass the handleClick function as onClick prop into Button component
+
+Button.js
+
+1 ) Read the onClick prop in the component
+
+2 ) Handle button click event and pass the day into onClick function
+
+.
+
+= Conditional Rendering
+
+Objective: The user should only be able to click on weekdays, the weekends should be displayed as text that the user can't click on.
+
+App.js
+
+1 ) Display 'Button' component only for Mon, Tue, Wed, Thu, Fri, for the rest display just text

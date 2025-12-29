@@ -1,0 +1,15 @@
+Writing Markup and using Variables in JSX
+
+Objective: To display information about Joanne Rowling and her books. Also displays a button to buy these books.
+
+App.js
+
+1 ) Display author full name (example: Joanne Rowling) using variables for first and last name in the <h2> HTML tag
+
+2 ) Display author description using variable in the <p> HTML tag
+
+3 ) Add list using <ul> HTML tag
+
+4 ) Display first, second and third book names as a separate list items using variables in the <li> HTML tags
+
+5 ) Display button with text Buy Joanne's books using variable for author first name in the <button> HTML tag

@@ -1,0 +1,20 @@
+.panel-dark {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.button-dark {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button-dark:hover {
+  background-color: #777;
+}

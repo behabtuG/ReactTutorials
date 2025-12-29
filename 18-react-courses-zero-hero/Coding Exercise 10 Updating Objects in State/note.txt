@@ -1,0 +1,9 @@
+Updating Objects in State
+
+= Updating Objects in State
+
+Objective: When the user changes the width or height using sliders, the blue rectangle updates it's size.
+
+App.js
+
+1 ) Set new size using setSize function. Remember, only one dimension ("width" or "height") changed by one time.

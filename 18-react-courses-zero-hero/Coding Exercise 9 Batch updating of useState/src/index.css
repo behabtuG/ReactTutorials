@@ -1,0 +1,39 @@
+/* 
+ * Styles for '.HeroesList' class selector
+ * - display: flex;
+ * - flex-wrap: wrap;
+ * - gap: 16px;
+ * - margin: 0px;
+ * - padding: 0px;
+ * - list-style: none;
+ */
+
+/* 
+ * Styles for '.HeroCard' class selector
+ * - width: 200px;
+ * - padding: 16px;
+ * - border-radius: 16px;
+ * - text-align: center;
+ * - background: maroon;
+ * - color: white;
+ */
+
+.HeroesList {
+  /* TODO: Set styles for the '.HeroesList' here */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.HeroCard {
+  /* TODO: Set styles for the '.HeroCard' here */
+  width: 200px;
+  padding: 16px;
+  border-radius: 16px;
+  text-align: center;
+  background: maroon;
+  color: white;
+}

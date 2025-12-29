@@ -1,0 +1,9 @@
+what are loops?
+
+loops are used to excute a code block until the provided condition is true.
+
+there are five types of loops in javascript.
+
+
+
+

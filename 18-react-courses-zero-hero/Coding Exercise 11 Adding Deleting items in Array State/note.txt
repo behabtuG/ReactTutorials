@@ -1,0 +1,19 @@
+Adding/Deleting items in Array State
+
+= Adding items in Array State
+
+Objective: When the user clicks "Add new todo", it should appear in the todo list.
+
+App.js
+
+1 ) Add a new todo (newTodo object) to the existing todos array 
+
+.
+
+= Deleting items from Array State
+
+Objective: When the user clicks "Delete" next to the todo, it should disappear from the todo list.
+
+App.js
+
+1 ) Delete the selected todo (with id equal todoId) from the existing todos array  

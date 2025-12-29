@@ -1,0 +1,15 @@
+Passing Props and their Manipulation in the Component
+
+Objective: Display beautiful cards with singer information (name, when born, instruments, genres and partners).
+
+App.js
+
+1 ) Pass singer prop to the Card component
+
+2 ) Pass background prop with ivory value to the first Card component
+
+3 ) Pass background prop with wheat value to the third Card component
+
+Card.js
+
+1 ) Set default value as lightgray for the background prop in the Card.js component

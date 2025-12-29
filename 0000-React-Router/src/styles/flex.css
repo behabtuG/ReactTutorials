@@ -1,0 +1,13 @@
+.container.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.items {
+  padding: 10px;
+  background-color: lightblue;
+  margin: 5px;
+}

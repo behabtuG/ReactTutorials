@@ -1,0 +1,9 @@
+Batch updating of useState
+
+= Batch updating of useState
+
+Objective: The user should be able to calculate the sum of 3 random numbers and see the result.
+
+App.js
+
+1 ) Change the call to the setSum function to correctly calculate the sum of random numbers from an array.

@@ -1,0 +1,24 @@
+In the previous example, each MyButton had its own independent count, and when each button was clicked, only the
+ count for the button clicked changed:
+ -->Initially, each MyButton’s count state is 0
+ -->The first MyButton updates its count to 1
+ However, often you’ll need components to share data and always update together.
+ To make both MyButton components display the same count and update together, you need to move the state from the 
+ individual buttons “upwards” to the closest component containing all of them.
+ --> Initially, MyApp’s count state is 0 and is passed down to both children
+ -->On click, MyApp updates its count state to 1 and passes it down to both children
+ Now when you click either button, the count in MyApp will change, which will change both of the counts in 
+ MyButton. Here’s how you can express this in code.
+
+First, move the state up from MyButton into MyApp:
+Then, pass the state down from MyApp to each MyButton, together with the shared click handler. You can pass 
+information to MyButton using the JSX curly braces, just like you previously did with built-in tags like <img>:
+The information you pass down like this is called props. Now the MyApp component contains the count state and the
+ handleClick event handler, and passes both of them down as props to each of the buttons.
+
+Finally, change MyButton to read the props you have passed from its parent component:
+
+When you click the button, the onClick handler fires. Each button’s onClick prop was set to the handleClick 
+function inside MyApp, so the code inside of it runs. That code calls setCount(count + 1), incrementing the count
+ state variable. The new count value is passed as a prop to each button, so they all show the new value. This is 
+ called “lifting state up”. By moving state up, you’ve shared it between components.

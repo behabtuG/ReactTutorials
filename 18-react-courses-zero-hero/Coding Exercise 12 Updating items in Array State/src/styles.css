@@ -1,0 +1,15 @@
+section:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px;
+}

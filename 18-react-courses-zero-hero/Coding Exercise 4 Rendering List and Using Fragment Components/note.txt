@@ -1,0 +1,13 @@
+Rendering List and Using Fragment Components
+
+Objective: Display cards with basketball players with all information about them (full name, position, league, career history)
+
+App.js
+
+1 ) Display the Card component for every player in the loop with the map function
+
+Card.js
+
+1 ) Display the career information in the loop with the map function
+
+2 ) Use React.Fragment component as a wrapper to display career information.

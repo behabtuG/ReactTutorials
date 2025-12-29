@@ -1,0 +1,17 @@
+Importing and Exporting Your First Component
+
+Objective: Display the text of the child component in the main component
+
+Children.js
+
+1 ) Define Children component
+
+2 ) Display Hi, I am Children component heading in the <h2> HTML tag
+
+3 ) Export Children component using named export
+
+App.js
+
+1 ) Import Children component from ./Children.js using named import
+
+2 ) Display Children component in the App component

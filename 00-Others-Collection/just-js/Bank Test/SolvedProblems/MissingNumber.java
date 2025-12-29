@@ -3,6 +3,7 @@ package SolvedProblems;
 import java.util.HashSet;
 import java.util.Set;
 
+// Find the missing number in an array containing n-1 numbers from 1 to n
 public class MissingNumber {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 4, 5, 6 }; // Array with a missing element

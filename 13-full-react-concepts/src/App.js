@@ -7,7 +7,7 @@ import About from "./components/router/About";
 // import Contact from "./components/router/Contact";
 // import Home from "./components/Home";
 // import About from "./components/About";
-
+//
 // Components for other pages
 const Contact = () => <h2>Contact Page</h2>;
 const Team = () => <h2>Team Page</h2>;

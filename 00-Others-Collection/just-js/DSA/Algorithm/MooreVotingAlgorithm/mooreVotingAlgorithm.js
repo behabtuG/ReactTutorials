@@ -2,6 +2,7 @@
 //? application and will be used to generate signatures for your application and applications applications that
 //? require different signatures for each application
 //? Moore's Voting Algorithm is a way to find the majority element in an array in O(n) time and O(1) space.
+//? A majority element is an element that appears more than n/2 times in the array.
 const mooreVotingAlgorithm = (arr) => {
   // Phase 1: Find a candidate
   let candidate = null;

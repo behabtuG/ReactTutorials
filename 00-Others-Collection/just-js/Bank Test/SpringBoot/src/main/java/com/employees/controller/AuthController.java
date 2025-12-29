@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.*;
 import java.net.URI;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+//?Controller for Authentication APIs (SignIn and SignUp)
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {

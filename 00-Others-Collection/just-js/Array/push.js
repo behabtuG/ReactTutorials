@@ -1,6 +1,6 @@
 //push()
 //adds one or more elements to the end of an array and returns the new length of the array.
-const numbers = [1, 2, 3];
+const numbers = [1, 2, 3]; //original array
 numbers.push(4, 5);
 console.log(numbers); // [1, 2, 3, 4, 5]
 

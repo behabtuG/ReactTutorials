@@ -8,6 +8,7 @@ import org.springframework.web.context.request.WebRequest;
 
 import java.util.Date;
 
+//?Global Exception Handler for the application
 @ControllerAdvice
 public class GlobalExceptionHandler {
 

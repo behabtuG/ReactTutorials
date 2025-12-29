@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function LogicalAnd() {
   const [isLogged, setIsLogged] = useState(false);

@@ -1,7 +1,7 @@
 //sort()
 //sorts the elements of an array in place and returns the sorted array.
 //The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
-const numbers = [4, 2, 3, 1];
+const numbers = [4, 2, 3, 1]; //original array
 numbers.sort();
 console.log(numbers); // [1, 2, 3, 4]
 

@@ -2,6 +2,7 @@ package com.employees.handler;
 
 import java.util.Date;
 
+//?Class to represent error details in exception handling
 public class ErrorDetails {
     private Date timestamp;
     private String message;

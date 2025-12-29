@@ -1,3 +1,4 @@
+// Activity Selection Problem using Greedy Algorithm
 const activitySelection = (start, finish) => {
   const n = start.length;
   const activities = [];

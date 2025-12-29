@@ -1,3 +1,4 @@
+// Fractional Knapsack Problem using Greedy Algorithm
 const fractionalKnapsack = (weights, values, capacity) => {
   const n = weights.length;
   const items = [];

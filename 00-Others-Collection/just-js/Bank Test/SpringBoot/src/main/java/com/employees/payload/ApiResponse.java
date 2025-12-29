@@ -1,5 +1,6 @@
 package com.employees.payload;
 
+//?Payload class to send API responses
 public class ApiResponse {
     private boolean success;
     private String message;

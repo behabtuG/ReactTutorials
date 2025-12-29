@@ -7,6 +7,7 @@ import org.springframework.security.config.annotation.authentication.configurati
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+//?Security Configuration class for defining beans like AuthenticationManager and PasswordEncoder
 @Configuration
 public class SecurityConfig {
 

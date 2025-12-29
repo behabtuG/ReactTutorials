@@ -21,10 +21,12 @@ public class EmployeeServiceImpl implements EmployeesService {
 
     @Override
     public Employees getEmployeeById(Long id) throws ResourceNotFoundException {
+        @SuppressWarnings("null")
         Optional<Employees> employee = employeeRepository.findById(id);
         return employee.orElseThrow(() -> new ResourceNotFoundException("Employee not found with id " + id));
     }
 
+    @SuppressWarnings("null")
     @Override
     public Employees createEmployee(Employees employee) {
         return employeeRepository.save(employee);
@@ -41,6 +43,7 @@ public class EmployeeServiceImpl implements EmployeesService {
         return employeeRepository.save(employee);
     }
 
+    @SuppressWarnings("null")
     @Override
     public void deleteEmployee(Long id) {
         Employees employee = employeeRepository.findById(id)

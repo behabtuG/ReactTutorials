@@ -4,6 +4,7 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
+//?Payload class for Sign Up Request
 public class SignUpRequest {
 
     @NotBlank

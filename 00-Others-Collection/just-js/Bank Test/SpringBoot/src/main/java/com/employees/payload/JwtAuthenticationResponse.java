@@ -1,5 +1,6 @@
 package com.employees.payload;
 
+//?Payload class to send JWT Authentication Response
 public class JwtAuthenticationResponse {
     private String accessToken;
     private String tokenType = "Bearer";

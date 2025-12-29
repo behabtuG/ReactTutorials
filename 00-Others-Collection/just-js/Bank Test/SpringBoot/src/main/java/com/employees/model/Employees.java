@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 @Entity
-@Data // ?Lambok annotation to generate getters, setters and construct
+@Data // ?Lambok annotation to generate getters, setters and constructors
 public class Employees {
 
     public Employees() {

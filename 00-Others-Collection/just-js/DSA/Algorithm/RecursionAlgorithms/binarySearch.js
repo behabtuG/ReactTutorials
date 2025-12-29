@@ -1,3 +1,4 @@
+// Binary Search using Recursion
 const binarySearch = (arr, target, low = 0, high = arr.length - 1) => {
   if (low > high) {
     return -1; // Base case: target not found

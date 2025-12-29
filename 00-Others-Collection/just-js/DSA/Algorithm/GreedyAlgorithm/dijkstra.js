@@ -1,3 +1,4 @@
+// Dijkstra's Algorithm using Greedy Approach
 const { MinPriorityQueue } = require("@datastructures-js/priority-queue");
 const dijkstra = (graph, source) => {
   const distances = {};

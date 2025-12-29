@@ -1,5 +1,7 @@
 package SolvedProblems;
 
+// Factorials Problem Solution
+
 public class Factorials {
 
     public static int findFactorial(int n) {

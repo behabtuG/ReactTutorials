@@ -3,6 +3,7 @@ package com.employees.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
+//?Controller for serving Login and Registration pages
 @Controller
 public class PageController {
 

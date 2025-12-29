@@ -1,3 +1,4 @@
+// Print Anagrams Together
 class Solution {
   anagrams(arr) {
     const groups = new Map();

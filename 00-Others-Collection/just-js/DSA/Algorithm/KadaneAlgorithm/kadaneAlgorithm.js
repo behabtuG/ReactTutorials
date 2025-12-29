@@ -1,6 +1,7 @@
 //?kadane algorithm for maximum subarray sum calculation for a given array
 //?Given an array of integers (both positive and negative), find the contiguous
 //? subarray with the maximum sum.
+//?Example: For the array [-2,1,-3,4,-1,2,1,-5,4], the maximum subarray is [4,-1,2,1] with sum 6.
 const kadaneAlgorithm = (arr) => {
   if (arr.length === 0) return 0; // Handle empty array case
 

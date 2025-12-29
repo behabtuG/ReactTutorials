@@ -1,3 +1,4 @@
+// Depth First Search (DFS) using Recursion
 const dfs = (graph, node, visited = new Set()) => {
   if (visited.has(node)) return; // Base case: Already visited
   console.log(node); // Process the node

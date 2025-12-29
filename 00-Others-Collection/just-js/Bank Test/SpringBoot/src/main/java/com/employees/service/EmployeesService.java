@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.employees.model.Employees;
 
+//?Service interface for Employee operations
 @Service
 public interface EmployeesService {
 

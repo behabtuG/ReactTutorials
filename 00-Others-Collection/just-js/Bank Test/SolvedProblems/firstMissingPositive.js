@@ -1,3 +1,4 @@
+// First Missing Positive Problem Solution
 function firstMissingPositive(nums) {
   const set = new Set();
   let smallest = 1; // Start with the smallest positive number

@@ -1,3 +1,4 @@
+// Largest Number Problem Solution
 let numbers = [3, 7, 2, 8, 5, 40];
 let max = numbers[0]; // initialize to the first value
 

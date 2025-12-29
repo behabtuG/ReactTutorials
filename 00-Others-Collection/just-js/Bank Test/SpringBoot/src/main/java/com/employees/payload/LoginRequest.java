@@ -2,6 +2,7 @@ package com.employees.payload;
 
 import jakarta.validation.constraints.NotBlank;
 
+//?Payload class for Login Request
 public class LoginRequest {
 
     @NotBlank

@@ -1,5 +1,6 @@
 package SolvedProblems;
 
+// Nulls Problem Solution
 public class nulls {
 
     public static void main(String[] args) {

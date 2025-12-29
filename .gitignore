@@ -1,11 +1,17 @@
+# ======================
 # OS files
+# ======================
 .DS_Store
 Thumbs.db
 
+# ======================
 # VS Code
+# ======================
 .vscode/
 
+# ======================
 # Node / React
+# ======================
 node_modules/
 build/
 dist/
@@ -13,11 +19,15 @@ npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 
+# ======================
 # Environment files
+# ======================
 .env
 .env.*
 
+# ======================
 # Python
+# ======================
 __pycache__/
 *.py[cod]
 .venv/
@@ -27,32 +37,29 @@ env/
 .mypy_cache/
 db.sqlite3
 
-# Java
+# ======================
+# Java / Maven / Gradle
+# ======================
 *.class
 target/
 .gradle/
 build/
-.idea/
-*.iml
 
-# Logs & coverage
-coverage/
-*.log
-
-# Secrets
-*.key
-*.pem
-*.crt
-
-
-
-HELP.md
-target/
+# Maven wrapper (KEEP THIS)
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# ======================
+# Java IDEs
+# ======================
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse / STS
 .apt_generated
 .classpath
 .factorypath
@@ -61,21 +68,21 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
-/dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# ======================
+# Logs & Coverage
+# ======================
+coverage/
+*.log
+
+# ======================
+# Secrets
+# ======================
+*.key
+*.pem
+*.crt
